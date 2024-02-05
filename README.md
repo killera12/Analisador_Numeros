@@ -16,6 +16,3 @@
  <br>
 
 ## 💻 Layout Desktop | 📱 Layout mobile
-
- <br>
-
