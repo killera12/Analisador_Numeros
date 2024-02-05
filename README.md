@@ -15,12 +15,7 @@
 
  <br>
 
-## 📱 Layout mobile
+## 💻 Layout Desktop | 📱 Layout mobile
 
-
-## 📱 Layout mobile
-
- 
  <br>
 
-## 💻 Layout Desktop
