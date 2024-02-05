@@ -16,3 +16,4 @@
  <br>
 
 ## 💻 Layout Desktop | 📱 Layout mobile
+![print](https://github.com/killera12/Analisador_Numeros/blob/main/assets/print.png?raw=true)
