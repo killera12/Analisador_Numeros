@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <title>Analisador de Números</title>
+  <link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="estilos/style.css">
+  <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+  <div class="objeto01">
+    <svg width="100%" height="100%" viewBox="0 0 1440 475" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M-3 474.398V0.518439C152.173 70.1574 417.8 116.066 719.424 116.066C1021.8 116.066 1287.99 69.9294 1443 0V474.398H1435.9C1279.94 406.237 1017.23 361.483 719.424 361.483C421.618 361.483 158.903 406.237 2.9452 474.398H-3Z" fill="url(#paint0_linear_408_1212)"/>
+      <defs>
+        <linearGradient id="paint0_linear_408_1212" x1="-3" y1="53.9088" x2="1472.83" y2="250.81" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#8D39B3"/>
+          <stop offset="1" stop-color="#4343CE"/>
+        </linearGradient>
+      </defs>
+    </svg>
+      
+      
+  </div>
+
+  <main>
+    <h1>Analisador de Números</h1>
+    <h2>Obtenha insights rápidos sobre seus números</h2>
+    <section>
+      <div>
+        <p>
+          Informe um número (entre 1 a 100):
+          <input type="number" name="txtnum" id="txtnum">
+          <input type="button" value="Adicionar" id="add" onclick="adicionar()">
+        </p>
+        <div id="flist">
+          
+        </div>
+        <p>
+          <input type="button" value="Finalizar" id="fim" onclick="finalizar()">
+          <button type="reset"><i class="las la-broom" onclick="clean()"></i></button>
+        </p>
+      </div>
+      <div id="res">
+    
+      </div>
+    </section>
+  </main>
+
+  <footer>
+      <p>Criado e desenvolvido por <strong>Killera</strong> <span id="ano"></span></p>
+      <a href="https://github.com/killera12" target="_blank"><i class="lab la-github"></i></a>
+  
+    <div>
+
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

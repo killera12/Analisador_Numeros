@@ -1,0 +1,270 @@
+@charset "UTF-8";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;  /* 10 px */
+
+  --ft-padrao: 'Poppins', sans-serif;
+  --color001:#000;
+  --color002:#FFF;
+  --color003:#18181C;
+  --color004:#9E9E9E;
+
+  --aa:linear-gradient(90deg, rgb(137, 56, 178) 20%, rgb(73, 66, 205) 100%);
+}
+
+html{
+  overflow-y: scroll; /* Adiciona uma barra de rolagem vertical sempre visível */
+  scroll-behavior: smooth; /* Adiciona um efeito de rolagem suave */
+}
+
+
+html, body{
+  width: 100vw;
+  height: 100%;
+
+  background-color: var(--color001);
+
+  font-family: var(--ft-padrao);
+  font-size: 1.6rem;
+  color: var(--color002);
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+  z-index: 1;
+
+}
+
+
+/* Scrollbar firefox */
+.firefox{
+  scrollbar-width: thin; 
+  scrollbar-color: #4942cd #000;
+}
+
+/* Scrollbar chrome */
+::-webkit-scrollbar {
+  width: 0.8rem;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+  background: var(--aa);
+  border-radius: 5rem;
+}
+
+
+.objeto01 svg{
+    max-width: 100vw; /* Define o tamanho máximo de largura */
+    min-height: 20rem;
+    max-height: 60rem; 
+}
+
+.objeto01{
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  top: 72rem;
+  left: 0;
+  
+  z-index: -1;
+}
+
+.objeto02{
+  display: none;
+}
+main{
+  width: 100vw;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin: auto;
+
+}
+
+main > h1{
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+main > h2{
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--color004);
+}
+
+section{
+  width: 38rem;
+  margin-top: 5rem;
+}
+
+section > div > p:nth-child(1){
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  
+  margin-bottom: 4rem;
+}
+
+section #txtnum{
+  max-width: 9rem;
+  height: 3rem;
+  font-size: 2rem;
+  color: var(--color002);
+
+  background: linear-gradient(var(--color001), var(--color001)) padding-box,
+              linear-gradient(90deg, rgb(137, 56, 178) 20%, hsl(243, 58%, 53%) 100%) border-box;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  padding: 1rem;
+}
+
+#txtnum:focus{
+  outline: 1px solid #8839b3;
+}
+
+
+section #add{
+  background: linear-gradient(90deg, rgba(137,56,178,1) 20%, rgba(71,65,205,1) 100%);
+
+  width: 11rem;
+  height: 4rem;
+  font-weight: 500;
+  color: var(--color002);
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+
+#flist{
+  width: 30rem;
+  height: 14rem;
+  
+  display: block;
+  background-color: var(--color003);
+  
+  font-weight: 300;
+  color: var(--color002);
+  text-align: center;
+  
+  background: linear-gradient(var(--color001), var(--color001)) padding-box,
+  linear-gradient(90deg, rgb(137, 56, 178) 20%, hsl(243, 58%, 53%) 100%) border-box;
+  border-radius: 10px;
+  border: 1px solid transparent;
+
+  overflow-y: scroll;
+  margin: auto auto 4rem;
+  padding: 1rem;
+}
+
+
+/* scrool personalizado */
+#flist::-webkit-scrollbar{
+  width: 4px;
+}
+
+#flist::-webkit-scrollbar-thumb{
+  background: var(--aa);
+  border-radius: 1rem;
+}
+
+section > div > p:nth-child(3){
+  display: flex;
+  gap: 2rem;
+
+  margin-bottom: 8rem;
+}
+
+
+input#fim{
+  background: linear-gradient(90deg, rgba(137,56,178,1) 20%, rgba(71,65,205,1) 100%);
+
+  width: 10rem;
+  height: 4rem;
+  font-weight: 500;
+  color: var(--color002);
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+
+button {
+  background: linear-gradient(90deg, rgba(137,56,178,1) 20%, rgba(71,65,205,1) 100%);
+  width: 4rem;
+  height: 4rem;
+  color: var(--color002);
+  border: none;
+  border-radius: 4px;
+}
+
+button i{
+  font-size: 3rem;
+}
+
+#add:active, #fim:active, button:active {
+  transform: scale(95%);
+  border:1px solid var(--color002);
+}
+
+#res{
+  max-height: 25rem;
+  background-color: var(--color001);
+
+  align-items: center;
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+#res p{
+font-size: 1.6rem;
+font-weight: 200;
+margin-bottom: 1rem;
+}
+
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  
+  background-color: var(--color001);
+  height: 8rem;
+  font-size: 1.4rem;
+  border-top: 1px solid #8839b3;
+  margin-top: 35rem;
+  padding: 2rem;
+
+}
+
+footer a{
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--color002);
+}
+
+footer i{
+  background: var(--color003);
+  font-size: 3rem;
+  border-radius: 1.5rem;
+  padding: 1rem;
+}
+
+footer i:hover{
+  background-color: var(--color002);
+  color: var(--color001);
+
+  transition: 200ms ease-in;
+}

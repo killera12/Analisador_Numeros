@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+/* Typical Device breakpoints
+  -----------------------------
+
+  telas pequenas (XS): Menos de 576px
+  Celular (SM): 576px - 767px
+  Tablet (MD): 768px - 991px
+  Desktop (LG): 992px - 1199px
+  Telas grandes (XL): 1200px e acima
+  
+*/
+
+
+/* Tablet e desktop (Gerais)*/
+@media screen and (min-width: 768px){
+ 
+  section > div > p:nth-child(1){
+    justify-content: center;
+    font-size: 2rem;
+    gap: 2rem;
+    
+    margin-bottom: 4rem;
+  }
+
+  section #txtnum{
+    max-width: 15rem;
+    height: 3rem;
+  }
+
+  section{
+    width: 68rem;
+    margin-top: 5rem;
+  }
+
+  #res p{
+    display: block;
+    font-size: 2rem;
+  }
+
+  #res {
+    margin-top: 15rem;
+  }
+
+  footer{
+    width: 100%;
+    gap: 5rem;
+  }
+
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 991px){
+  
+  main > h1{
+    font-size: 4.5rem;
+  }
+
+  main > h2{
+    font-size: 1.8rem;
+    margin-top: -0.5rem;
+  }
+
+
+}
+
+/*desktop + */
+
+@media screen and (min-width: 992px) {
+
+  main > h1{
+    font-size: 5rem;
+  }
+
+  main > h2{
+    font-size: 2rem;
+    margin-top: -0.8rem;
+  }
+
+  .objeto01 svg{
+    height: 40rem;
+  }
+
+}
+
+/* svg */
+@media screen and (min-width: 1200px) {
+  .objeto01 svg{
+    height: 45rem;
+  }
+
+  footer{
+    margin-top: 41rem;
+  }
+}
