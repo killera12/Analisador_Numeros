@@ -17,10 +17,10 @@
 
 ## 📱 Layout mobile
 
+  ![image-mobile](https://github.com/killera12/Analisador_Numeros/blob/main/assets/mobile.jpg?raw=true)
 
-## 📱 Layout mobile
 
- 
  <br>
 
 ## 💻 Layout Desktop
+![image-desktop](https://github.com/killera12/Analisador_Numeros/blob/main/assets/desktop.jpg?raw=true)
