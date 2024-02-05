@@ -15,7 +15,8 @@
 
  <br>
 
- ## 
+## 📱 Layout mobile
+
 
 ## 📱 Layout mobile
 
@@ -23,6 +24,3 @@
  <br>
 
 ## 💻 Layout Desktop
-
-## Licença
-Este projeto está licenciado sob a Licença MIT.
