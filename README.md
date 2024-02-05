@@ -15,7 +15,17 @@
 
  <br>
 
-## 💻 Layout Desktop | 📱 Layout mobile
+# 💻 Layout Desktop | 📱 Layout mobile
 [![print](https://github.com/killera12/Analisador_Numeros/blob/main/assets/print.png?raw=true)](https://killera12.github.io/Analisador_Numeros/)
 
 - <a href="https://killera12.github.io/Analisador_Numeros/" target="_blank" style="color:#8938b2; font-size:20px;"><strong>Click Here</strong> &#x1F517;</a>
+
+<br>
+
+## 👏 Agradecimentos
+- Agradeço ao Canal <a href="https://youtu.be/vEOEZ03ZyiE?si=A4cBy8xm21edJOsJ" target="_blank">Curso em Vídeo</a> por fornecer conteúdo educacional de alta qualidade e inspirar este projeto baseado no desafio da aula 16 do curso de JavaScript.
+
+- Agradeço à comunidade de desenvolvedores e aos contribuidores de código aberto por compartilharem conhecimento e recursos valiosos.
+
+## Autor
+Este projeto foi desenvolvido por Killera.
