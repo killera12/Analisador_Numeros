@@ -41,6 +41,8 @@ function adicionar(){
   } else{
     alert('[ERRO] Valor inválido!')
   }
+  num.value = ''
+  num.focus()
 }
 
 // finalizar
