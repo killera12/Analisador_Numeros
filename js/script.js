@@ -38,6 +38,7 @@ function adicionar(){
     item.textContent = `O valor ${number} foi adicionado.`
     list.appendChild(item)
     valores.push(number)
+    res.innerHTML = ''
   } else{
     alert('[ERRO] Valor inválido!')
   }
