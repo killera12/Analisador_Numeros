@@ -28,4 +28,4 @@
 - Agradeço à comunidade de desenvolvedores e aos contribuidores de código aberto por compartilharem conhecimento e recursos valiosos.
 
 ## Autor
-Este projeto foi desenvolvido por Pedro.S.
+Este projeto foi desenvolvido por Pedro.S
