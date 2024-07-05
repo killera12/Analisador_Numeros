@@ -16,7 +16,7 @@
  <br>
 
 # 💻 Layout Desktop | 📱 Layout mobile
-[![print](https://github.com/killera12/Analisador_Numeros/blob/main/assets/print.png?raw=true)](https://killera12.github.io/Analisador_Numeros/)
+[![print](https://github.com/killera12/Analisador_Numeros/blob/main/assets/print.png?raw=true)](https://silvapedrodev.github.io/Analisador_Numeros/)
 
 - <a href="https://silvapedrodev.github.io/Analisador_Numeros/" target="_blank"><strong>Click Here</strong> &#x1F517;</a>
 
